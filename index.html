@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <link
+  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- head section starts -->
+
+    <header class="header">
+        <a href="#home" class="logo"><img src="./images/logo.png" alt=""> </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here....." id="search-box">
+        <label for="search-box"  class="fa-solid fa-magnifying-glass"></label>
+        </form>
+        
+        <div class="icons">
+            <div id="menu-btn"  class="fa-solid fa-bars"></div>
+            <div id="search-btn"  class="fa-solid fa-magnifying-glass"></div>
+
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="fa-solid fa-cart-shopping"></a>
+        </div>
+    </header>
+
+
+    <!-- navbar section -->
+
+    <nav class="navbar">
+        <div id="close-navbar"  class="fa-solid fa-square-xmark"></div>
+        <a href="#home">home</a>
+        <a href="#shop">shop</a>
+        <a href="#gallery">gallery</a>
+        <a href="#orders">orders</a>
+        <a href="#arrivals">arrivals</a>
+        <a href="#blogs">blogs</a>
+
+    </nav>
+    <!-- navbar section -->
+    <!-- head section ends -->
+
+
+
+<!-- home section begins  -->
+
+    <section class="home" id="home">
+
+        <div class="slide active">
+            <div class="content">
+                <img src="./images/crop 1.png">
+                <span>new arrivals 2024</span>
+                <h3>tops</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="controls">
+                    <div  class="fa-solid fa-angle-left" onclick="prev()"></div>
+                    <div class="fa-solid fa-angle-right" onclick="next()" ></div>
+                   
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/img2.jpeg">
+            </div>
+        </div>
+
+
+        <div class="slide">
+            <div class="content">
+                <img src="./images/crop 4.png">
+                <span>new arrivals 2024</span>
+                <h3>scruchies</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="controls">
+                    <div  class="fa-solid fa-angle-left" onclick="prev()"></div>
+                    <div class="fa-solid fa-angle-right" onclick="next()" ></div>
+                   
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/img4.jpeg">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <img src="./images/crop 1 cover.png">
+                <span>new collections</span>
+                <h3>gowns</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="controls">
+                    <div  class="fa-solid fa-angle-left" onclick="prev()"></div>
+                    <div class="fa-solid fa-angle-right" onclick="next()" ></div>
+                   
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/img1.jpeg">
+            </div>
+        </div>
+    </section>
+<!-- home section ends -->
+
+<!-- catergory selection starts  -->
+    <!-- <section class="category">
+        <a href="#" class="box">
+            <img src="./images/hat-removebg-preview.png">
+            <p>cosmetics</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="./images/band-removebg-preview.png">
+            <p>makeup</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="./images/boy_top-removebg-preview.png">
+            <p>powder</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="./images/pouch-removebg-preview.png">
+            <p>cosmetics</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="./images/socks-removebg-preview.png">
+            <p>cosmetics</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="./images/jacket-removebg-preview.png">
+            <p>cosmetics</p>
+        </a>
+    </section> -->
+
+<!-- catergory selection starts  -->
+
+  <!-- about section starts -->
+    <section class="about" id="about">
+        <div class="content">
+            <span>why choose us?</span>
+            <h3>Knotting Elegance, Crafting Grace</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum non ipsam quo voluptatem corrupti quis harum aliquid reprehenderit eligendi facilis culpa sit officia ducimus repudiandae, veritatis nisi! Obcaecati, neque tempore.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </section>
+  <!-- about section ends -->
+
+
+  <!-- shop sections starts -->
+
+        <section class="shop" id="shop">
+            <div class="heading">
+                <h1>featured products</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At rem iste, alias omnis officiis quam?</p>
+            </div>
+
+            <div class=" swiper products-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="slide">
+
+                        <div class="image">
+                            <img src="./images/gown2.jpeg">
+                            <div class="icons">
+                                
+                                <a href="#" class="fa-solid fa-cart-shopping"></a>
+                                <a href="#" class="fa-solid fa-heart"></a>
+                                <a href="#" class="fa-solid fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <p>beauty products</p>
+                            <div class="price">$49.00 <span>#79.00</span></div>
+                        </div>
+                    </div>
+
+
+                    <div class="slide">
+
+                        <div class="image">
+                            <img src="./images/gown2.jpeg">
+                            <div class="icons">
+                                
+                                <a href="#" class="fa-solid fa-cart-shopping"></a>
+                                <a href="#" class="fa-solid fa-heart"></a>
+                                <a href="#" class="fa-solid fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <p>beauty products</p>
+                            <div class="price">$49.00 <span>#79.00</span></div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+
+                        <div class="image">
+                            <img src="./images/gown2.jpeg">
+                            <div class="icons">
+                                
+                                <a href="#" class="fa-solid fa-cart-shopping"></a>
+                                <a href="#" class="fa-solid fa-heart"></a>
+                                <a href="#" class="fa-solid fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <p>beauty products</p>
+                            <div class="price">$49.00 <span>#79.00</span></div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+
+                        <div class="image">
+                            <img src="./images/gown2.jpeg">
+                            <div class="icons">
+                                
+                                <a href="#" class="fa-solid fa-cart-shopping"></a>
+                                <a href="#" class="fa-solid fa-heart"></a>
+                                <a href="#" class="fa-solid fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <p>beauty products</p>
+                            <div class="price">$49.00 <span>#79.00</span></div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+
+                        <div class="image">
+                            <img src="./images/gown2.jpeg">
+                            <div class="icons">
+                                
+                                <a href="#" class="fa-solid fa-cart-shopping"></a>
+                                <a href="#" class="fa-solid fa-heart"></a>
+                                <a href="#" class="fa-solid fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <p>beauty products</p>
+                            <div class="price">$49.00 <span>#79.00</span></div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+
+                        <div class="image">
+                            <img src="./images/gown2.jpeg">
+                            <div class="icons">
+                                
+                                <a href="#" class="fa-solid fa-cart-shopping"></a>
+                                <a href="#" class="fa-solid fa-heart"></a>
+                                <a href="#" class="fa-solid fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <p>beauty products</p>
+                            <div class="price">$49.00 <span>#79.00</span></div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+
+                        <div class="image">
+                            <img src="./images/gown2.jpeg">
+                            <div class="icons">
+                                
+                                <a href="#" class="fa-solid fa-cart-shopping"></a>
+                                <a href="#" class="fa-solid fa-heart"></a>
+                                <a href="#" class="fa-solid fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <p>beauty products</p>
+                            <div class="price">$49.00 <span>#79.00</span></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+
+                        <div class="image">
+                            <img src="./images/gown2.jpeg">
+                            <div class="icons">
+                                
+                                <a href="#" class="fa-solid fa-cart-shopping"></a>
+                                <a href="#" class="fa-solid fa-heart"></a>
+                                <a href="#" class="fa-solid fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <p>beauty products</p>
+                            <div class="price">$49.00 <span>#79.00</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+               <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+  <!-- shop section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+</body>
+</html>
